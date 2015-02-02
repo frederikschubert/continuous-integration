@@ -1,0 +1,25 @@
+Unit Test:
+    - JUnit
+    - Mockito (http://mockito.org/)
+    - Arquillian (http://arquillian.org/)
+
+Local Test Build:
+    - DCEVM (https://dcevm.github.io/)
+    - Hotswap Agent (http://hotswapagent.org/)
+
+Build & Unit Test & Acceptance Test:
+    - mvn package
+    - mvn test
+    - mvn verify -P integration-tests
+
+Check Code Quality:
+    - SonarQube plugins
+
+Close Issue:
+    - Jenkins Jira plugin
+
+Notify Developer:
+    - Jenkins Mail Plugin
+
+Performance Test:
+    - Gatlin | JMeter
